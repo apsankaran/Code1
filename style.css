@@ -1,0 +1,41 @@
+* {
+	font-family: Calibri, sans-serif;
+	color: #fff1f1;
+	text-align: center;
+}
+
+body {
+	width: 75rem;
+	margin:  0 auto;
+	padding:  1rem;
+	background-color: #485cfc;
+}
+
+nav {
+	padding:  1rem;
+	margin: 1rem;
+	text-align: center;
+	margin-left: 0.4rem;
+}
+
+li {
+	display: inline;
+	padding:  3rem;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer{
+	background-color:  #485cfc;
+	padding:  1rem;
+	margin: 1rem;
+}
